@@ -1,7 +1,7 @@
 class ArticlModel {
-  final String image;
+  final String? image;
   final String title;
-  final String subTitle;
+  final String? subTitle;
 
   ArticlModel({
     required this.image,
